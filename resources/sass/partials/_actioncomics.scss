@@ -1,0 +1,29 @@
+.line-blue{
+    width: 100%;
+    height: 60px;
+    background-color: #0282f9;
+}
+.container-actioncomics{
+    
+    .row{
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding-top: 30px;
+        
+        position: relative;
+        .col-8{
+            width: calc(100% - 40%);
+        }
+        .col-4{
+            width: calc(100% - 60%);
+            img{
+                width: 100%;
+            }
+        }
+
+    }
+
+}
